@@ -349,8 +349,8 @@ table td.filename .thumbnail {
 	position: absolute;
 	z-index: 4;
 }
-p.name .thumbnail {
-	cursor: default !important;
+table td.filename p.name .thumbnail {
+	cursor: default;
 }
 
 // Show slight border around previews for images, txt, etc.
@@ -647,8 +647,9 @@ a.action > img {
 }
 
 #fileList tr:hover a.action.disabled:hover * {
-	cursor: default !important;
+	cursor: default;
 }
+
 .summary {
 	opacity: .3;
 	/* add whitespace to bottom of files list to correctly show dropdowns */
